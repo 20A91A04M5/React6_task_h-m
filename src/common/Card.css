@@ -1,0 +1,22 @@
+
+.im{
+    width: 80%;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 600px){
+    .im{
+        height: 400px;
+    }
+}
